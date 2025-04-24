@@ -1,8 +1,10 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 export const About=()=>{
      
-    const frontendSkills = ["React","View","TypeScript","TailwindCSS"];
-    const backendskills = ["Node.js","python","AWS","GraphQL"];
+    const languages = ["C/C++","Python","R","JavaScript","PL/SQL","HTML/CSS"];
+    const Tools_and_FrameWorks = ["Pytorch","Tensorflow","Flask","FastAPI","Streamlit","ReactJS","Django","Docker","PowerBI"];
+    const frontendSkills = ["ReactJS","HTML/CSS","JavaScript","Bootstrap","Tailwind CSS"];
+    
 
 
     return <section id="About"
@@ -14,20 +16,26 @@ export const About=()=>{
             </h2>
             <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all ">
                 <p className="text-gray-300 mb-6">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat repudiandae velit ipsa ipsam consequuntur vitae id! Enim voluptate provident vero, quia facilis eligendi perspiciatis sed dolorem. Perferendis quam ratione fugit.
+                Computer Engineering undergrad at TIET , India. Passionate about Machine Learning and Finance, I specialize in Data Science and Machine Learning. I love building and tinkering with Neural Network. Fueled with innovation dedicated to providing solutions to real life problems.
                 </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1  gap-6">
                 <div className=" rounded-xl p-6 hover:translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                    <h3 className="text-xl font-bold mb-4">Languages</h3>
                     <div className=" flec flex-wrap gap-2">
-                        {frontendSkills.map((tech,key) => <span key={key} className="bg-blue-800 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">{tech}</span>)}
+                        {languages.map((tech,key) => <span key={key} className="bg-blue-800 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">{tech}</span>)}
                     </div>
                 </div>
                 <div className=" rounded-xl p-6 hover:translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">Backend</h3>
+                    <h3 className="text-xl font-bold mb-4"></h3>Tools and Frameworks
                     <div className=" flec flex-wrap gap-2">
-                        {backendskills.map((tech,key) => <span key={key} className="bg-blue-800 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">{tech}</span>)}
+                        {Tools_and_FrameWorks.map((tech,key) => <span key={key} className="bg-blue-800 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">{tech}</span>)}
+                    </div>
+                </div>
+                <div className=" rounded-xl p-6 hover:translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-4"></h3>Frontend
+                    <div className=" flec flex-wrap gap-2">
+                        {frontendSkills.map((tech,key) => <span key={key} className="bg-blue-800 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">{tech}</span>)}
                     </div>
                 </div>
             </div>
@@ -43,7 +51,7 @@ export const About=()=>{
                         </strong>-Thapar Institute of Engineering and Technology(2022-2026)
                     </li>
                     <li>
-                        Relevent Coursework: Data Structurea,Web Developement ,Clound Computing,NLP,d
+                        Relevent Coursework: Data Science, Machine Learning, Deep Learning, Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks,Corporate Finance.
                     </li>
                 </ul>
                 </div>
